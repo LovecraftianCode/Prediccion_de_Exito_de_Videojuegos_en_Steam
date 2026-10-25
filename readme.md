@@ -14,6 +14,7 @@ Este proyecto utiliza tecnicas de Web Scraping y Machine Learning para predecir 
 
 ##  Proceso de Limpieza de Datos
 Se extrajeron datos de mas de **9,500 juegos**. Durante la limpieza se realizaron las siguientes tareas:
+<img width="953" height="848" alt="scrapper_debug" src="https://github.com/user-attachments/assets/410fac0d-53c9-4f9b-a93b-e15af7241261" />
 
 
 1.  **Manejo de nulos:** Se eliminaron registros sin datos de pico de jugadores o seguidores.
@@ -33,6 +34,7 @@ Debido al desbalance de clases (hay muchos mas juegos no exitosos que exitosos),
 ###  Visualizacion del Arbol de Decision
 Las variables mas importantes para predecir el exito son el **numero de seguidores** (`followers`), el **pico de jugadores concurrentes** (`peak`) y la **calificacion** (`rating`).
 
+<img width="8197" height="2370" alt="arbol_decision_visual" src="https://github.com/user-attachments/assets/d5c4b863-d35e-446f-b575-a046b42338c8" />
 
 
 ##  Proximos Pasos
